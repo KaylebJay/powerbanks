@@ -248,7 +248,7 @@ local function register_powerbank(data)
 		output = "powerbanks:powerbank_mk"..data.mark,
 		recipe = {
 			{"technic:battery", "technic:battery", "technic:battery"},
-			{"technic:stainless_steel_ingot", data.craft_base, "technic:stainless_steel_ingot"},
+			{"xtraores:osmium_block", data.craft_base, "default:diamondblock"},
 			{"", data.craft_crystal, ""},
 		}
 	})
